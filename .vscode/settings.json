@@ -1,0 +1,22 @@
+{
+    "explorerSort.rules": [
+        {
+            "name": "Auto-generated for **/*",
+            "pathPattern": "**/*",
+            "priorities": [
+                {
+                    "condition": "name === 'models'",
+                    "priority": 0,
+                    "referenceFile": "style.css",
+                    "offset": -1
+                },
+                {
+                    "condition": "name === 'style.css'",
+                    "priority": 0,
+                    "referenceFile": "script.js",
+                    "offset": 0
+                }
+            ]
+        }
+    ]
+}
